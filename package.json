@@ -1,0 +1,23 @@
+{
+  "name": "web_crawl",
+  "version": "1.0.0",
+  "description": "A simple website crawler for enhancing SEO performance.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/animegit/web_crawl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/animegit/web_crawl/issues"
+  },
+  "homepage": "https://github.com/animegit/web_crawl#readme",
+  "devDependencies": {
+    "jest": "^29.6.2"
+  }
+}

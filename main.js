@@ -1,4 +1,5 @@
 const{crawlPage}=require('./crawl.js')
+const{printReport}=require('./report.js')
 async function main(){
     if(process.argv.length<3){
         console.log('No website to crawl');
@@ -12,9 +13,7 @@ const baseurl=process.argv[2];
  
         console.log(`Start crawling ${baseurl}`);
         const results=await crawlPage(baseurl,baseurl,{})
-        for(const res of Object.entries(results) ){
-            console.log(res)
-        }
+       printReport(results)
 
     
 
